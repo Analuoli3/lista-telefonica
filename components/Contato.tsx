@@ -1,10 +1,10 @@
 import { SQLiteDatabase } from "expo-sqlite";
-import _tarefa from "../types/contato";
+import _contato from "../types/contato";
 import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
 import { Linking } from 'react-native';
 
 type _propsContato = {
-  dados: _tarefa,
+  dados: _contato,
   db: SQLiteDatabase,
   recarregar: any,
   navigation: any
